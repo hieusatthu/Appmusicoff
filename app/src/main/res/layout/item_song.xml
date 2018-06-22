@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="32dp"
+        android:id="@+id/img_logo_music"
+        android:layout_height="32dp"
+        android:src="@drawable/music"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/txt_name_song"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name song"
+        android:textSize="18sp"
+        android:textColor="@color/mauTrang"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/img_logo_music"
+        android:maxLines="1"
+        />
+    <TextView
+        android:textColor="@color/mauTrang"
+        android:id="@+id/txt_singer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="singer"
+        android:layout_below="@+id/txt_name_song"
+        android:layout_toRightOf="@+id/img_logo_music"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="2dp"
+        />
+    <ImageView
+        android:id="@+id/img_more"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/more"
+        android:layout_alignParentRight="true"
+
+        />
+</RelativeLayout>

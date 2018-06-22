@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="customAppbar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/mauDenDam</item>
+        <item name="android:colorPrimaryDark">@color/mauTimDam</item>
+        <item name="android:textColor">#ffffff</item>
+
+    </style>
+    <!--kế thừa từ customAppbar nên sẽ có các thuộc tính của customAppbar-->
+  <style name="customBackgroundPopup" parent="customAppbar">
+      <!--đặt background cho popup menu-->
+      <item name="android:background">@color/mauDenNhat</item>
+      <!--đổi màu dấu ba chấm-->
+      <item name="android:textColorSecondary">@color/mauTrang</item>
+  </style>
+</resources>

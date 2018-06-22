@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2a1e33</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mauTimNhat">#8e24aa</color>
+    <color name="mauTimDam">#5c007a</color>
+    <color name="mauTrang">#ffffff</color>
+    <color name="mauTrangDuc">#9499b7</color>
+    <color name="mauDenDam">#2a1e33</color>
+    <color name="mauDenNhat">#33243d</color>
+</resources>
